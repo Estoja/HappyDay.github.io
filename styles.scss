@@ -1,0 +1,2017 @@
+$skin: #FCE0CE;
+$darkskin: #F3C1A9;
+$wall: #E96576;
+$eye: #452209;
+$hair: #000;
+$hair2: #3f2915;
+$eyebrow: #282828;
+$gold: #FFD700;
+$goldTiara: #ffbf00;
+$border: #000;
+$shirt: #FFF;
+$shadowShirt: #EDEAEA;
+$belt: #484848;
+$buckle: #DAA520;
+$blueJean: #1560bd;
+$shadowBlueJean: #0d3d78;
+$shoes: #00112d;
+$lipstick: #9f1f19;
+$ocean: #0077be;
+$grass: #458B00;
+$snow: #fffafa;
+$floor: #C76F78;
+$wood: #763C28;
+$shadowWood: #4b3621;
+$ruby: #9b111e;
+$lightBlue: #006cc3;
+$darkBlue: #0050ab;
+$letters: #2C6691;
+
+.face_girl {
+    background-color: #FCE0CE;
+    height: 276px;
+    width: 276px;
+    margin: 48px;
+}
+
+div {
+    display: inline-flex;
+}
+  
+.absolute {
+  position: absolute;
+}
+
+.card {
+  background-color: $wall;
+  height: 576px;
+  position: relative;
+  width: 800px;
+  &__girl {
+    @extend .absolute;  
+    background-color: $skin;
+    height: 276px;
+    width: 276px;
+    margin: 48px;
+    &--lefteyetop {
+      @extend .absolute;
+      animation: eye;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+      background-color: $eye;
+      height: 24px;
+      left: 72px;
+      top: 132px;
+      width: 24px;
+    }
+    &--lefteyebottom {
+      @extend .absolute;
+      background-color: $eye;
+      height: 12px;
+      left: 72px;
+      top: 144px;
+      width: 24px;
+    }
+    &--righteyetop {
+      @extend .absolute;
+      @extend .card__girl--lefteyetop;
+      left: 180px;
+    }
+    &--righteyebottom {
+      @extend .absolute;
+      @extend .card__girl--lefteyebottom;
+      left: 180px;
+    }
+    &--1 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 12px;
+      width: 96px;
+    }
+    &--2 {
+      @extend .absolute;
+      background-color: $hair;
+      height: 12px;
+      left: 96px;
+      width: 96px;
+    }
+    &--3 {
+      @extend .absolute;
+      background-color: $wall;
+      height: 12px;
+      left: 192px;
+      width: 84px;
+    }
+    &--4 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 12px;
+      width: 84px;
+    }
+    &--5 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 84px;
+      top: 12px;
+      width: 120px;
+    }
+    &--6 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 204px;
+      top: 12px;
+      width: 72px;
+    }
+    &--7 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 24px;
+      width: 72px;
+    }
+    &--8 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 24px;
+      left: 72px;
+      width: 72px;
+    }
+    &--9 {
+      @extend .absolute;
+      background-color: $darkskin;
+      height: 12px;
+      top: 24px;
+      left: 144px;
+      width: 24px;
+    }
+    &--10 {
+      @extend .absolute;
+      @extend .card__girl--8;
+      left: 168px;
+      width: 48px;
+    }
+    &--11 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 216px;
+      top: 24px;
+      width: 60px;
+    }
+    &--12 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 36px;
+      width: 60px;
+    }
+    &--13 {
+      @extend .absolute;
+      @extend .card__girl--8;
+      top: 36px;
+      left: 60px;
+    }
+    &--14 {
+      @extend .absolute;
+      @extend .card__girl--9;
+      top: 36px;
+      left: 132px;
+      width: 12px;
+    }
+    &--15 {
+      @extend .absolute;
+      @extend .card__girl--14;
+      left: 168px;
+    }
+    &--16 {
+      @extend .absolute;
+      @extend .card__girl--13;
+      left: 180px;
+      width: 48px;
+    }
+    &--17 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 228px;
+      top: 36px;
+      width: 48px;
+    }
+    &--18 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 48px;
+      width: 48px;
+    }
+    &--19 {
+      @extend .absolute;
+      @extend .card__girl--8;
+      top: 48px;
+      left: 48px;
+    }
+    &--20 {
+      @extend .absolute;
+      @extend .card__girl--14;
+      top: 48px;
+      left: 120px;
+    }
+    &--21 {
+      @extend .absolute;
+      @extend .card__girl--20;
+      left: 180px;
+    }
+    &--22 {
+      @extend .absolute;
+      @extend .card__girl--19;
+      left: 192px;
+      width: 48px;
+    }
+    &--23 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 240px;
+      top: 48px;
+      width: 36px;
+    }
+    &--24 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 60px;
+      width: 36px;
+    }
+    &--25 {
+      @extend .absolute;
+      @extend .card__girl--8;
+      top: 60px;
+      left: 36px;
+    }
+    &--26 {
+      @extend .absolute;
+      @extend .card__girl--14;
+      top: 60px;
+      left: 108px;
+    }
+    &--27 {
+      @extend .absolute;
+      @extend .card__girl--14;
+      top: 60px;
+      left: 192px;
+    }
+    &--28 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 204px;
+      top: 60px;
+      width: 36px;
+    }
+    &--29 {
+      @extend .absolute;
+      background-color: $hair2;
+      top: 60px;
+      left: 240px;
+      width: 12px;
+      height: 12px;
+    }
+    &--30 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 252px;
+      top: 60px;
+      width: 24px;
+    }
+    &--31 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 72px;
+      width: 24px;
+    }
+    &--32 {
+      @extend .absolute;
+      @extend .card__girl--8;
+      top: 72px;
+      left: 24px;
+    }
+    &--33 {
+      @extend .absolute;
+      @extend .card__girl--14;
+      top: 72px;
+      left: 96px;
+    }
+    &--34 {
+      @extend .absolute;
+      @extend .card__girl--14;
+      top: 72px;
+      left: 204px;
+    }
+    &--35 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 216px;
+      top: 72px;
+      width: 24px;
+    }
+    &--36 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 240px;
+      top: 72px;
+    }
+    &--37 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      top: 72px;
+      left: 252px;
+      width: 24px;
+    }
+
+    &--38 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 84px;
+      width: 24px;
+    }
+    &--39 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 84px;
+      left: 24px;
+      width: 60px;
+    }
+    &--40 {
+      @extend .absolute;
+      background-color: $eyebrow;
+      top: 84px;
+      left: 84px;
+      width: 12px;
+      height: 12px;
+    }
+    &--41 {
+      @extend .absolute;
+      @extend .card__girl--40;
+      left: 180px;
+      width: 24px;
+    }
+    &--42 {
+      @extend .absolute;
+      @extend .card__girl--9;
+      top: 84px;
+      left: 204px;
+      width: 12px;
+    }
+    &--43 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 216px;
+      top: 84px;
+      width: 36px;
+    }
+    &--44 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 252px;
+      top: 84px;
+    }
+    &--45 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 264px;
+      top: 84px;
+      width: 12px;
+    }
+    &--46 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 96px;
+      width: 12px;
+    }
+    &--47 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 96px;
+      left: 12px;
+      width: 72px;
+    }
+    &--48 {
+      @extend .absolute;
+      @extend .card__girl--40;
+      top: 96px;
+      left: 96px;
+      width: 12px;
+    }
+    &--49 {
+      @extend .absolute;
+      @extend .card__girl--40;
+      top: 96px;
+      left: 168px;
+      width: 12px;
+    }
+    &--50 {
+      @extend .absolute;
+      @extend .card__girl--40;
+      top: 96px;
+      left: 204px;
+      width: 12px;
+    }
+    &--51 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 216px;
+      top: 96px;
+      width: 36px;
+    }
+    &--52 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 252px;
+      top: 96px;
+    }
+    &--53 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 264px;
+      top: 96px;
+      width: 12px;
+    }
+    &--54 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 108px;
+      height: 24px;
+      width: 12px;
+    }
+    &--55 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 108px;
+      height: 24px;
+      left: 12px;
+      width: 72px;
+    }
+    &--56 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 216px;
+      height: 24px;
+      top: 108px;
+      width: 36px;
+    }
+    &--57 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 252px;
+      height: 24px;
+      top: 108px;
+    }
+    &--58 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 264px;
+      height: 24px;
+      top: 108px;
+      width: 12px;
+    }
+    &--59 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 132px;
+      width: 12px;
+    }
+    &--60 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 132px;
+      left: 12px;
+      width: 72px;
+    }
+    &--61 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 216px;
+      top: 132px;
+    }
+    &--62 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 228px;
+      top: 132px;
+      width: 24px;
+    }
+    &--63 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 252px;
+      top: 132px;
+    }
+    &--64 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 264px;
+      top: 132px;
+      width: 12px;
+    }
+    &--65 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 144px;
+      width: 12px;
+    }
+    &--66 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 144px;
+      left: 12px;
+      width: 60px;
+    }
+    &--67 {
+      @extend .absolute;
+      @extend .card__girl--9;
+      top: 144px;
+      left: 132px;
+      width: 12px;
+    }
+    &--68 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 216px;
+      top: 144px;
+    }
+    &--69 {
+      @extend .absolute;
+      @extend .card__girl--9;
+      top: 144px;
+      left: 228px;
+      width: 12px;
+    }
+    &--70 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 240px;
+      top: 144px;
+      width: 12px;
+    }
+    &--71 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 252px;
+      top: 144px;
+    }
+    &--72 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 264px;
+      top: 144px;
+      width: 12px;
+    }
+    &--73 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 156px;
+      width: 12px;
+    }
+    &--74 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 156px;
+      left: 12px;
+      width: 48px;
+    }
+    &--90 {
+      @extend .absolute;
+      @extend .card__girl--9;
+      top: 156px;
+      left: 60px;
+      width: 12px;
+    }
+    &--75 {
+      @extend .absolute;
+      @extend .card__girl--9;
+      top: 156px;
+      left: 132px;
+      width: 12px;
+    }
+    &--76 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 216px;
+      top: 156px;
+    }
+    &--77 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 240px;
+      top: 156px;
+      width: 12px;
+    }
+    &--78 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 252px;
+      top: 156px;
+    }
+    &--79 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 264px;
+      top: 156px;
+      width: 12px;
+    }
+    &--80 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 168px;
+      width: 12px;
+    }
+    &--81 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 168px;
+      width: 48px;
+      left: 12px;
+    }
+    &--93 {
+      @extend .absolute;
+      @extend .card__girl--9;
+      top: 168px;
+      left: 60px;
+      width: 12px;
+    }
+    &--82 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 216px;
+      top: 168px;
+      width: 12px;
+    }
+    &--83 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 228px;
+      top: 168px;
+      width: 3px;
+    }
+    &--84 {
+      @extend .absolute;
+      background-color: $gold;
+      top: 168px;
+      left: 231px;
+      width: 6px;
+      height: 12px;
+    }
+    &--85 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 237px;
+      top: 168px;
+      width: 15px;
+    }
+    &--86 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 252px;
+      top: 168px;
+      width: 12px;
+    }
+    &--87 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 264px;
+      top: 168px;
+      width: 12px;
+    }
+    &--88 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 180px;
+      width: 12px;
+    }
+    &--89 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 180px;
+      width: 48px;
+      left: 12px;
+    }
+    &--101 {
+      @extend .absolute;
+      @extend .card__girl--9;
+      top: 180px;
+      left: 60px;
+      width: 12px;
+    }
+    &--92 {
+      @extend .absolute;
+      background-color: $lipstick;
+      top: 180px;
+      left: 120px;
+      width: 24px;
+      height: 12px;
+    }
+    &--91 {
+      @extend .absolute;
+      @extend .card__girl--92;
+      animation: mouth;
+      animation-duration: 3s;
+      animation-iteration-count: infinite; 
+      top: 180px;
+      left: 108px;
+      width: 60px;
+    }
+    &--94 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 216px;
+      top: 180px;
+      width: 15px;
+    }
+    &--95 {
+      @extend .absolute;
+      @extend .card__girl--84;
+      top: 180px;
+    }
+    &--96 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 237px;
+      top: 180px;
+      width: 15px;
+    }
+    &--97 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 252px;
+      top: 180px;
+      width: 12px;
+    }
+    &--98 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 264px;
+      top: 180px;
+      width: 12px;
+    }
+    &--99 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 192px;
+      width: 12px;
+    }
+    &--100 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 192px;
+      width: 60px;
+      left: 12px;
+    }
+    // &--102 {
+    //   @extend .absolute;
+    //   @extend .card__girl--90;
+    //   width: 24px;
+    //   left: 204px;
+    //   top: 192px;
+    // }
+    &--103 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 204px;
+      top: 192px;
+      width: 48px;
+    }
+    &--104 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 252px;
+      top: 192px;
+      width: 12px;
+    }
+    &--105 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 264px;
+      top: 192px;
+      width: 12px;
+    }
+    &--106 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 204px;
+      width: 12px;
+    }
+    &--107 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 204px;
+      width: 72px;
+      left: 12px;
+    }
+    &--108 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 192px;
+      top: 204px;
+      width: 60px;
+    }
+    &--109 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 252px;
+      top: 204px;
+      width: 12px;
+    }
+    &--110 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 264px;
+      top: 204px;
+      width: 12px;
+    }
+    &--111 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 216px;
+      width: 12px;
+      height: 24px;
+    }
+    &--112 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 216px;
+      width: 108px;
+      left: 12px;
+      height: 24px;
+    }
+    &--113 {
+      @extend .absolute;
+      @extend .card__girl--9;
+      top: 216px;
+      left: 120px;
+      width: 36px;
+    }
+    &--114 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 156px;
+      top: 216px;
+      width: 108px;
+      height: 24px;
+    }
+    &--115 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 252px;
+      top: 216px;
+      width: 12px;
+      height: 24px;
+    }
+    &--116 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 264px;
+      top: 216px;
+      width: 12px;
+      height: 24px;
+    }
+    &--117 {
+      @extend .absolute;
+      @extend .card__girl--1;
+      top: 228px;
+      width: 12px;
+      height: 72px;
+    }
+    &--118 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 228px;
+      width: 36px;
+      left: 12px;
+      height: 72px;
+      z-index: 1;
+    }
+    &--119 {
+      @extend .absolute;
+      @extend .card__girl--3;
+      left: 264px;
+      top: 228px;
+      width: 12px;
+      height: 72px;
+    }
+    &--120 {
+      @extend .absolute;
+      @extend .card__girl--29;
+      left: 252px;
+      top: 228px;
+      width: 12px;
+      height: 60px;
+    }
+    &--121 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      left: 240px;
+      top: 228px;
+      width: 12px;
+      height: 60px;
+      z-index: 1;
+    }
+    &--122 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 240px;
+      width: 24px;
+      left: 36px;
+    }
+    &--123 {
+      @extend .absolute;
+      background-color: $shirt;
+      top: 240px;
+      left: 60px;
+      width: 36px;
+      height: 12px;
+    }
+    &--124 {
+      @extend .absolute;
+      @extend .card__girl--123;
+      left: 180px;
+    }
+    &--125 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 240px;
+      width: 24px;
+      left: 216px;
+    }
+    &--126 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 252px;
+      width: 12px;
+      left: 36px;
+    }
+    &--127 {
+      @extend .absolute;
+      @extend .card__girl--123;
+      top: 252px;
+      left: 48px;
+      width: 60px;
+    }
+    &--128 {
+      @extend .absolute;
+      @extend .card__girl--123;
+      top: 252px;
+      left: 168px;
+      width: 60px;
+    }
+    &--129 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 252px;
+      width: 12px;
+      left: 228px;
+    }
+    &--130 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 264px;
+      width: 12px;
+      left: 36px;
+    }
+    &--131 {
+      @extend .absolute;
+      @extend .card__girl--123;
+      top: 264px;
+      left: 48px;
+      width: 72px;
+    }
+    &--132 {
+      @extend .absolute;
+      @extend .card__girl--123;
+      top: 264px;
+      left: 156px;
+      width: 72px;
+    }
+    &--133 {
+      @extend .absolute;
+      @extend .card__girl--2;
+      top: 264px;
+      width: 12px;
+      left: 228px;
+    }
+    &--134 {
+      @extend .absolute;
+      @extend .card__girl--123;
+      top: 276px;
+      left: 48px;
+      width: 84px;
+    }
+    &--135 {
+      @extend .absolute;
+      @extend .card__girl--9;
+      top: 276px;
+      left: 132px;
+      width: 12px;
+    }
+    &--136 {
+      @extend .absolute;
+      @extend .card__girl--123;
+      top: 276px;
+      left: 144px;
+      width: 84px;
+    }
+    &--137 {
+      @extend .absolute;
+      @extend .card__girl--123;
+      top: 288px;
+      left: 48px;
+      width: 180px;
+      height: 84px;
+    }
+    &--138 {
+      @extend .absolute;
+      background-color: $belt;
+      top: 372px;
+      left: 48px;
+      width: 180px;
+      height: 12px;
+    }
+    &--139 {
+      @extend .absolute;
+      background-color: $buckle;
+      top: 372px;
+      left: 120px;
+      width: 36px;
+      height: 12px;
+    }
+    &--140 {
+      @extend .absolute;
+      background-color: $blueJean;
+      top: 384px;
+      left: 48px;
+      width: 84px;
+      height: 36px;
+    }
+    &--141 {
+      @extend .absolute;
+      background-color: $shadowBlueJean;
+      top: 384px;
+      left: 132px;
+      width: 12px;
+      height: 36px;
+    }
+    &--142 {
+      @extend .absolute;
+      @extend .card__girl--140;
+      left: 144px;
+    }
+    &--143 {
+      @extend .absolute;
+      @extend .card__girl--140;
+      top: 420px;
+      left: 60px;
+      width: 72px;
+    }
+    &--144 {
+      @extend .absolute;
+      @extend .card__girl--140;
+      top: 420px;
+      left: 144px;
+      width: 72px;
+    }
+    &--145 {
+      @extend .absolute;
+      background-color: $shoes;
+      top: 456px;
+      left: 60px;
+      width: 72px;
+      height: 12px;
+    }
+    &--146 {
+      @extend .absolute;
+      @extend .card__girl--145;
+      left: 144px;
+    }
+    &--147 {
+      @extend .absolute;
+      @extend .card__girl--145;
+      top: 468px;
+      width: 48px;
+    }
+    &--148 {
+      @extend .absolute;
+      @extend .card__girl--145;
+      top: 468px;
+      width: 12px;
+      left: 120px;
+    }
+    &--149 {
+      @extend .absolute;
+      @extend .card__girl--145;
+      top: 468px;
+      width: 12px;
+      left: 144px;
+    }
+    &--150 {
+      @extend .absolute;
+      @extend .card__girl--145;
+      top: 468px;
+      width: 48px;
+      left: 168px;
+    }
+  }
+  &__world {
+    animation: world;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    height: 108px;
+    position: relative;
+    width: 108px;
+    left: 132px;
+    top: 288px;
+    &--1 {
+      @extend .absolute;
+      background-color: $ocean;
+      height: 12px;
+      left: 48px;
+      width: 12px;
+    }
+    &--2 {
+      @extend .absolute;
+      @extend .card__world--1;
+      left: 24px;
+      width: 60px;
+      top: 12px;
+    }
+    &--3 {
+      @extend .absolute;
+      background-color: $grass;
+      height: 12px;
+      left: 48px;
+      width: 12px;
+      top: 12px;
+    }
+    &--4 {
+      @extend .absolute;
+      @extend .card__world--1;
+      left: 12px;
+      width: 84px;
+      top: 24px;
+    }
+    &--5 {
+      @extend .absolute;
+      @extend .card__world--3;
+      left: 24px;
+      width: 48px;
+      top: 24px;
+    }
+    &--6 {
+      @extend .absolute;
+      @extend .card__world--1;
+      left: 12px;
+      width: 84px;
+      top: 36px;
+    }
+    &--7 {
+      @extend .absolute;
+      @extend .card__world--3;
+      left: 36px;
+      width: 24px;
+      top: 36px;
+    }
+    &--8 {
+      @extend .absolute;
+      @extend .card__world--1;
+      left: 0;
+      width: 108px;
+      top: 48px;
+    }
+    &--9 {
+      @extend .absolute;
+      @extend .card__world--3;
+      top: 48px;
+    }
+    &--10 {
+      @extend .absolute;
+      @extend .card__world--1;
+      left: 12px;
+      width: 84px;
+      top: 60px;
+    }
+    &--11 {
+      @extend .absolute;
+      @extend .card__world--3;
+      top: 60px;
+      width: 24px;
+      left: 60px;
+    }
+    &--12 {
+      @extend .absolute;
+      @extend .card__world--1;
+      left: 12px;
+      width: 84px;
+      top: 72px;
+    }
+    &--13 {
+      @extend .absolute;
+      @extend .card__world--3;
+      top: 72px;
+      width: 24px;
+      left: 48px;
+    }
+    &--14 {
+      @extend .absolute;
+      @extend .card__world--1;
+      left: 24px;
+      width: 60px;
+      top: 84px;
+    }
+    &--15 {
+      @extend .absolute;
+      @extend .card__world--3;
+      top: 84px;
+      width: 12px;
+      left: 60px;
+    }
+    &--16 {
+      @extend .absolute;
+      @extend .card__world--1;
+      width: 12px;
+      top: 96px;
+    }
+    &--17 {
+      @extend .absolute;
+      background-color: $skin;
+      height: 12px;
+      width: 12px;
+      top: 72px;
+    }
+    &--18 {
+      @extend .absolute;
+      @extend .card__world--17;
+      left: 96px;
+    }
+    &--19 {
+      @extend .absolute;
+      @extend .card__world--17;
+      width: 24px;
+      height: 24px;
+      top: 84px;
+    }
+    &--20 {
+      @extend .absolute;
+      @extend .card__world--17;
+      left: 84px;
+      width: 24px;
+      height: 24px;
+      top: 84px;
+    }
+    &--21 {
+      @extend .absolute;
+      background-color: $darkskin;
+      height: 3px;
+      width: 12px;
+      top: 90px;
+      left: 12px;
+    }
+    &--22 {
+      @extend .absolute;
+      @extend .card__world--21;
+      top: 99px;
+    }
+    &--23 {
+      @extend .absolute;
+      @extend .card__world--21;
+      top: 90px;
+      left: 84px;
+    }
+    &--24 {
+      @extend .absolute;
+      @extend .card__world--21;
+      top: 99px;
+      left: 84px;
+    }
+    &--25 {
+      @extend .absolute;
+      @extend .card__world--17;
+      width: 48px;
+      height: 24px;
+      top: 84px;
+      left: -48px;
+      z-index: 1;
+    }
+    &--26 {
+      @extend .absolute;
+      @extend .card__world--17;
+      width: 48px;
+      height: 24px;
+      top: 84px;
+      left: 108px;
+      z-index: 1;
+    }
+    &--27 {
+      @extend .absolute;
+      @extend .card__world--21;
+      top: 84px;
+      width: 3px;
+      height: 24px;
+      left: -3px;
+    }
+    &--28 {
+      @extend .absolute;
+      @extend .card__world--21;
+      top: 84px;
+      width: 3px;
+      height: 24px;
+      left: 108px;
+    }
+    &--29 {
+      @extend .absolute;
+      background-color: $shirt;
+      height: 108px;
+      width: 36px;
+      left: -60px;
+    }
+    &--30 {
+      @extend .absolute;
+      background-color: $shadowShirt;
+      height: 84px;
+      width: 3px;
+      left: -27px;
+    }
+    &--31 {
+      @extend .absolute;
+      background-color: $shirt;
+      height: 108px;
+      width: 36px;
+      left: 132px;
+    }
+    &--32 {
+      @extend .absolute;
+      background-color: $shadowShirt;
+      height: 84px;
+      width: 3px;
+      left: 132px;
+    }
+  }
+  &__floor {
+    @extend .absolute;  
+    background-color: $floor;
+    height: 48px;
+    width: 800px;
+    top: 528px;
+  }
+  &__desk {
+    @extend .absolute;
+    height: 168px;
+    width: 360px;
+    top: 396px;
+    left: 360px;
+    &--1 {
+      @extend .absolute;
+      background-color: $wood;
+      height: 24px;
+      width: 360px;
+    }
+    &--2 {
+      @extend .absolute;
+      background-color: $shadowWood;
+      height: 12px;
+      width: 336px;
+      left: 12px;
+      top: 24px;
+    }
+    &--3 {
+      @extend .absolute;
+      @extend .card__desk--1;
+      width: 24px;
+      top: 36px;
+      left: 12px;
+      height: 96px;;
+    }
+    &--4 {
+      @extend .absolute;
+      @extend .card__desk--1;
+      width: 24px;
+      top: 36px;
+      left: 324px;
+      height: 96px;;
+    }
+  }
+  &__wonderWoman {
+    @extend .absolute;
+    height: 204px;
+    width: 168px;
+    top: 192px;
+    left: 456px;
+    &--1 {
+      @extend .absolute;
+      background-color: $border;
+      height: 12px;
+      left: 60px;
+      width: 48px;
+    }
+    &--2 {
+      @extend .absolute;
+      @extend .card__wonderWoman--1;
+      top: 12px;
+      left: 48px;
+      width: 72px;
+    }
+    &--3 {
+      @extend .absolute;
+      background-color: $goldTiara;
+      top: 12px;
+      left: 72px;
+      width: 24px;
+      height: 12px;
+    }
+    &--4 {
+      @extend .absolute;
+      @extend .card__wonderWoman--1;
+      top: 24px;
+      left: 36px;
+      width: 96px;
+    }
+    &--5 {
+      @extend .absolute;
+      @extend .card__wonderWoman--3;
+      top: 24px;
+      left: 60px;
+      width: 48px;
+    }
+    &--6 {
+      @extend .absolute;
+      @extend .card__wonderWoman--1;
+      top: 36px;
+      left: 24px;
+      width: 120px;
+    }
+    &--7 {
+      @extend .absolute;
+      @extend .card__wonderWoman--3;
+      top: 36px;
+      left: 48px;
+      width: 72px;
+    }
+    &--8 {
+      @extend .absolute;
+      background-color: $ruby;
+      top: 36px;
+      left: 72px;
+      width: 24px;
+      height: 12px;
+    }
+    &--9 {
+      @extend .absolute;
+      @extend .card__wonderWoman--1;
+      top: 48px;
+      left: 24px;
+      width: 120px;
+    }
+    &--10 {
+      @extend .absolute;
+      @extend .card__wonderWoman--3;
+      top: 48px;
+      left: 48px;
+      width: 72px;
+    }
+    &--11 {
+      @extend .absolute;
+      @extend .card__wonderWoman--1;
+      top: 60px;
+      left: 24px;
+      width: 120px;
+      height: 36px;
+    }
+    &--12 {
+      @extend .absolute;
+      @extend .card__wonderWoman--8;
+      top: 60px;
+      left: 36px;
+      width: 12px;
+    }
+    &--13 {
+      @extend .absolute;
+      background-color: $skin;
+      top: 60px;
+      left: 48px;
+      width: 12px;
+      height: 24px;
+    }
+    &--14 {
+      @extend .absolute;
+      @extend .card__wonderWoman--13;
+      top: 60px;
+      left: 72px;
+      width: 24px;
+    }
+    &--15 {
+      @extend .absolute;
+      @extend .card__wonderWoman--13;
+      top: 60px;
+      left: 108px;
+      width: 12px;
+    }
+    &--16 {
+      @extend .absolute;
+      @extend .card__wonderWoman--8;
+      top: 60px;
+      left: 120px;
+      width: 12px;
+    }
+    &--17 {
+      @extend .absolute;
+      @extend .card__wonderWoman--13;
+      top: 84px;
+      left: 60px;
+      height: 12px;
+      width: 48px;
+    }
+    &--18 {
+      @extend .absolute;
+      @extend .card__wonderWoman--1;
+      top: 96px;
+      left: 12px;
+      width: 144px;
+      height: 24px;
+    }
+    &--19 {
+      @extend .absolute;
+      @extend .card__wonderWoman--13;
+      top: 96px;
+      left: 48px;
+      height: 12px;
+    }
+    &--20 {
+      @extend .absolute;
+      @extend .card__wonderWoman--13;
+      top: 96px;
+      left: 108px;
+      height: 12px;
+    }
+    &--21 {
+      @extend .absolute;
+      @extend .card__wonderWoman--13;
+      top: 108px;
+      left: 36px;
+      height: 12px;
+      width: 96px;
+    }
+    &--22 {
+      @extend .absolute;
+      background-color: $gold;
+      top: 108px;
+      left: 48px;
+      width: 24px;
+      height: 12px;
+    }
+    &--23 {
+      @extend .absolute;
+      @extend .card__wonderWoman--22;
+      left: 96px;
+    }
+    &--24 {
+      @extend .absolute;
+      @extend .card__wonderWoman--1;
+      top: 120px;
+      width: 100%;
+      left: 0;
+    }
+    &--25 {
+      @extend .absolute;
+      @extend .card__wonderWoman--13;
+      top: 120px;
+      left: 12px;
+      height: 12px;
+      width: 144px;
+    }
+    &--26 {
+      @extend .absolute;
+      @extend .card__wonderWoman--8;
+      top: 120px;
+      left: 48px;
+      width: 72px;
+    }
+    &--27 {
+      @extend .absolute;
+      @extend .card__wonderWoman--22;
+      top: 120px;
+      left: 72px;
+      width: 24px;
+    }
+    &--28 {
+      @extend .absolute;
+      @extend .card__wonderWoman--1;
+      top: 132px;
+      width: 144px;
+      left: 12px;
+    }
+    &--29 {
+      @extend .absolute;
+      background-color: $shirt;
+      top: 132px;
+      left: 48px;
+      width: 60px;
+      height: 12px;
+    }
+    &--30 {
+      @extend .absolute;
+      background-color: $lightBlue;
+      top: 132px;
+      left: 60px;
+      width: 12px;
+      height: 12px;
+    }
+    &--31 {
+      @extend .absolute;
+      @extend .card__wonderWoman--30;
+      left: 84px;
+    }
+    &--32 {
+      @extend .absolute;
+      @extend .card__wonderWoman--30;
+      left: 108px;
+    }
+    &--33 {
+      @extend .absolute;
+      @extend .card__wonderWoman--1;
+      top: 144px;
+      width: 96px;
+      left: 36px;
+      height: 48px;
+    }
+    &--34 {
+      @extend .absolute;
+      @extend .card__wonderWoman--29;
+      left: 60px;
+      top: 144px;
+    }
+    &--35 {
+      @extend .absolute;
+      @extend .card__wonderWoman--30;
+      top: 144px;
+      left: 48px;
+    }
+    &--36 {
+      @extend .absolute;
+      @extend .card__wonderWoman--30;
+      top: 144px;
+      left: 72px;
+    }
+    &--37 {
+      @extend .absolute;
+      @extend .card__wonderWoman--30;
+      top: 144px;
+      left: 96px;
+    }
+    &--38 {
+      @extend .absolute;
+      @extend .card__wonderWoman--13;
+      top: 156px;
+      left: 48px;
+      width: 24px;
+      height: 12px;
+    }
+    &--39 {
+      @extend .absolute;
+      @extend .card__wonderWoman--13;
+      top: 156px;
+      left: 96px;
+      width: 24px;
+      height: 12px;
+    }
+    &--40 {
+      @extend .absolute;
+      @extend .card__wonderWoman--8;
+      top: 168px;
+      left: 48px;
+      width: 12px;
+      height: 24px;
+    }
+    &--42 {
+      @extend .absolute;
+      @extend .card__wonderWoman--8;
+      top: 168px;
+      left: 96px;
+      width: 12px;
+      height: 24px;
+    }
+    &--41 {
+      @extend .absolute;
+      @extend .card__wonderWoman--29;
+      top: 168px;
+      left: 60px;
+      width: 12px;
+      height: 24px;
+    }
+    &--43 {
+      @extend .absolute;
+      @extend .card__wonderWoman--29;
+      top: 168px;
+      left: 108px;
+      width: 12px;
+      height: 24px;
+    }
+    &--44 {
+      @extend .absolute;
+      @extend .card__wonderWoman--1;
+      top: 192px;
+      width: 24px;
+      left: 48px;
+    }
+    &--45 {
+      @extend .absolute;
+      @extend .card__wonderWoman--1;
+      top: 192px;
+      width: 24px;
+      left: 96px;
+    }
+  }
+  &__message {
+    @extend .absolute;
+    animation: message;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    background-color: $shirt;
+    top: 84px;
+    height: 84px;
+    left: 336px;
+    width: 420px;
+    &--1 {
+      @extend .absolute;
+      background-color: $shirt;
+      top: -24px;
+      height: 12px;
+      width: 372px;
+      left: 24px;
+    }
+    &--2 {
+      @extend .absolute;
+      @extend .card__message--1;
+      top: -12px;
+      width: 396px;
+      left: 12px;
+    }
+    &--3 {
+      @extend .absolute;
+      @extend .card__message--1;
+      top: 84px;
+      width: 396px;
+      left: 12px;
+    }
+    &--4 {
+      @extend .absolute;
+      @extend .card__message--1;
+      top: 96px;
+    }
+    &--5 {
+      @extend .absolute;
+      @extend .card__message--1;
+      top: 108px;
+      width: 48px;
+      left: 312px;
+    }
+    &--6 {
+      @extend .absolute;
+      @extend .card__message--1;
+      top: 120px;
+      width: 36px;
+      left: 312px;
+    }
+    &--7 {
+      @extend .absolute;
+      @extend .card__message--1;
+      top: 132px;
+      width: 24px;
+      left: 300px;
+    }
+    &--8 {
+      @extend .absolute;
+      background-color: $letters;
+      top: 12px;
+      height: 60px;
+      width: 12px;
+      left: 12px;
+    }
+    &--9 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 24px;
+    }
+    &--10 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 24px;
+      top: 36px;
+    }
+    &--11 {
+      @extend .absolute;
+      @extend .card__message--8;
+      left: 48px;
+    }
+    &--12 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 60px;
+    }
+    &--13 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 60px;
+      top: 36px;
+    }
+    &--14 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 60px;
+      top: 60px;
+    }
+    &--15 {
+      @extend .absolute;
+      @extend .card__message--8;
+      left: 84px;
+    }
+    &--16 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 96px;
+      top: 60px;
+    }
+    &--17 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      width: 36px;
+      left: 120px;
+      top: 12px;
+    }
+    &--18 {
+      @extend .absolute;
+      @extend .card__message--8;
+      left: 132px;
+    }
+    &--19 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 120px;
+      width: 36px;
+      top: 60px;
+    }
+    &--20 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 168px;
+      width: 36px;
+      top: 12px;
+    }
+    &--24 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 168px;
+      width: 36px;
+      top: 60px;
+    }
+    &--21 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 192px;
+      top: 24px;
+    }
+    &--22 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 180px;
+      top: 36px;
+    }
+    &--23 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 168px;
+      top: 48px;
+    }
+    &--25 {
+      @extend .absolute;
+      @extend .card__message--8;
+      left: 252px;
+    }
+    &--26 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      width: 24px;
+      left: 264px;
+      top: 12px;
+    }
+    &--27 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      width: 24px;
+      left: 264px;
+      top: 60px;
+    }
+    &--28 {
+      @extend .absolute;
+      @extend .card__message--8;
+      left: 288px;
+      top: 24px;
+      height: 36px;
+    }
+    &--29 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      width: 36px;
+      left: 312px;
+      top: 12px;
+    }
+    &--30 {
+      @extend .absolute;
+      @extend .card__message--8;
+      left: 324px;
+    }
+    &--31 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      left: 312px;
+      width: 36px;
+      top: 60px;
+    }
+    &--32 {
+      @extend .absolute;
+      @extend .card__message--8;
+      left: 360px;
+      top: 24px;
+      height: 48px;
+    }
+    &--33 {
+      @extend .absolute;
+      @extend .card__message--8;
+      left: 396px;
+      top: 24px;
+      height: 48px;
+    }
+    &--34 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      width: 24px;
+      left: 372px;
+      top: 12px;
+    }
+    &--35 {
+      @extend .absolute;
+      @extend .card__message--8;
+      height: 12px;
+      width: 24px;
+      left: 372px;
+      top: 36px;
+    }
+  }
+  &__by {
+    @extend .absolute;
+    bottom: -28px;
+    color: white;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    right: 30px;
+  }
+}
+
+@keyframes eye {
+  0% { opacity: 1; }
+  48% { opacity: 1; }
+  49% { opacity: 0; }
+  55% { opacity: 1; }
+  57% { opacity: 0; }
+  98% { opacity: 0; }
+  99% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@keyframes mouth {
+  0% { opacity: 0; }
+  59% { opacity: 0; }
+  60% { opacity: 1; }
+  99% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@keyframes world {
+  0% { top: 288px; }
+  59% { top: 288px; }
+  60% { top: 300px; }
+  99% { top: 300px; }
+  100% { top: 288px; }
+}
+
+@keyframes message {
+  0% { top: 84px }
+  50% { top: 48px }
+  100% { top: 84px }
+}

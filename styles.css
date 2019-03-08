@@ -1,0 +1,1512 @@
+.face_girl {
+  background-color: #FCE0CE;
+  height: 276px;
+  width: 276px;
+  margin: 48px;
+}
+
+div {
+  display: inline-flex;
+}
+
+.absolute, .card__by, .card__message--35, .card__message--34, .card__message--33, .card__message--32, .card__message--31, .card__message--30, .card__message--29, .card__message--28, .card__message--27, .card__message--26, .card__message--25, .card__message--23, .card__message--22, .card__message--21, .card__message--24, .card__message--20, .card__message--19, .card__message--18, .card__message--17, .card__message--16, .card__message--15, .card__message--14, .card__message--13, .card__message--12, .card__message--11, .card__message--10, .card__message--9, .card__message--8, .card__message--35, .card__message--34, .card__message--33, .card__message--32, .card__message--31, .card__message--30, .card__message--29, .card__message--28, .card__message--27, .card__message--26, .card__message--25, .card__message--23, .card__message--22, .card__message--21, .card__message--24, .card__message--20, .card__message--19, .card__message--18, .card__message--17, .card__message--16, .card__message--15, .card__message--14, .card__message--13, .card__message--12, .card__message--11, .card__message--10, .card__message--9, .card__message--7, .card__message--6, .card__message--5, .card__message--4, .card__message--3, .card__message--2, .card__message--1, .card__message--7, .card__message--6, .card__message--5, .card__message--4, .card__message--3, .card__message--2, .card__message, .card__wonderWoman--45, .card__wonderWoman--44, .card__wonderWoman--43, .card__wonderWoman--41, .card__wonderWoman--42, .card__wonderWoman--40, .card__wonderWoman--39, .card__wonderWoman--38, .card__wonderWoman--37, .card__wonderWoman--36, .card__wonderWoman--35, .card__wonderWoman--34, .card__wonderWoman--33, .card__wonderWoman--32, .card__wonderWoman--31, .card__wonderWoman--30, .card__wonderWoman--37, .card__wonderWoman--36, .card__wonderWoman--35, .card__wonderWoman--32, .card__wonderWoman--31, .card__wonderWoman--29, .card__wonderWoman--43, .card__wonderWoman--41, .card__wonderWoman--34, .card__wonderWoman--28, .card__wonderWoman--27, .card__wonderWoman--26, .card__wonderWoman--25, .card__wonderWoman--24, .card__wonderWoman--23, .card__wonderWoman--22, .card__wonderWoman--27, .card__wonderWoman--23, .card__wonderWoman--21, .card__wonderWoman--20, .card__wonderWoman--19, .card__wonderWoman--18, .card__wonderWoman--17, .card__wonderWoman--16, .card__wonderWoman--15, .card__wonderWoman--14, .card__wonderWoman--13, .card__wonderWoman--39, .card__wonderWoman--38, .card__wonderWoman--25, .card__wonderWoman--21, .card__wonderWoman--20, .card__wonderWoman--19, .card__wonderWoman--17, .card__wonderWoman--15, .card__wonderWoman--14, .card__wonderWoman--12, .card__wonderWoman--11, .card__wonderWoman--10, .card__wonderWoman--9, .card__wonderWoman--8, .card__wonderWoman--42, .card__wonderWoman--40, .card__wonderWoman--26, .card__wonderWoman--16, .card__wonderWoman--12, .card__wonderWoman--7, .card__wonderWoman--6, .card__wonderWoman--5, .card__wonderWoman--4, .card__wonderWoman--3, .card__wonderWoman--10, .card__wonderWoman--7, .card__wonderWoman--5, .card__wonderWoman--2, .card__wonderWoman--1, .card__wonderWoman--45, .card__wonderWoman--44, .card__wonderWoman--33, .card__wonderWoman--28, .card__wonderWoman--24, .card__wonderWoman--18, .card__wonderWoman--11, .card__wonderWoman--9, .card__wonderWoman--6, .card__wonderWoman--4, .card__wonderWoman--2, .card__wonderWoman, .card__desk--4, .card__desk--3, .card__desk--2, .card__desk--1, .card__desk--4, .card__desk--3, .card__desk, .card__floor, .card__world--32, .card__world--31, .card__world--30, .card__world--29, .card__world--28, .card__world--27, .card__world--26, .card__world--25, .card__world--24, .card__world--23, .card__world--22, .card__world--21, .card__world--28, .card__world--27, .card__world--24, .card__world--23, .card__world--22, .card__world--20, .card__world--19, .card__world--18, .card__world--17, .card__world--26, .card__world--25, .card__world--20, .card__world--19, .card__world--18, .card__world--16, .card__world--15, .card__world--14, .card__world--13, .card__world--12, .card__world--11, .card__world--10, .card__world--9, .card__world--8, .card__world--7, .card__world--6, .card__world--5, .card__world--4, .card__world--3, .card__world--15, .card__world--13, .card__world--11, .card__world--9, .card__world--7, .card__world--5, .card__world--2, .card__world--1, .card__world--16, .card__world--14, .card__world--12, .card__world--10, .card__world--8, .card__world--6, .card__world--4, .card__world--2, .card__girl--150, .card__girl--149, .card__girl--148, .card__girl--147, .card__girl--146, .card__girl--145, .card__girl--150, .card__girl--149, .card__girl--148, .card__girl--147, .card__girl--146, .card__girl--144, .card__girl--143, .card__girl--142, .card__girl--141, .card__girl--140, .card__girl--144, .card__girl--143, .card__girl--142, .card__girl--139, .card__girl--138, .card__girl--137, .card__girl--136, .card__girl--135, .card__girl--134, .card__girl--133, .card__girl--132, .card__girl--131, .card__girl--130, .card__girl--129, .card__girl--128, .card__girl--127, .card__girl--126, .card__girl--125, .card__girl--124, .card__girl--123, .card__girl--137, .card__girl--136, .card__girl--134, .card__girl--132, .card__girl--131, .card__girl--128, .card__girl--127, .card__girl--124, .card__girl--122, .card__girl--121, .card__girl--120, .card__girl--119, .card__girl--118, .card__girl--117, .card__girl--116, .card__girl--115, .card__girl--114, .card__girl--113, .card__girl--112, .card__girl--111, .card__girl--110, .card__girl--109, .card__girl--108, .card__girl--107, .card__girl--106, .card__girl--105, .card__girl--104, .card__girl--103, .card__girl--100, .card__girl--99, .card__girl--98, .card__girl--97, .card__girl--96, .card__girl--95, .card__girl--94, .card__girl--91, .card__girl--92, .card__girl--91, .card__girl--101, .card__girl--89, .card__girl--88, .card__girl--87, .card__girl--86, .card__girl--85, .card__girl--84, .card__girl--95, .card__girl--83, .card__girl--82, .card__girl--93, .card__girl--81, .card__girl--80, .card__girl--79, .card__girl--78, .card__girl--77, .card__girl--76, .card__girl--75, .card__girl--90, .card__girl--74, .card__girl--73, .card__girl--72, .card__girl--71, .card__girl--70, .card__girl--69, .card__girl--68, .card__girl--67, .card__girl--66, .card__girl--65, .card__girl--64, .card__girl--63, .card__girl--62, .card__girl--61, .card__girl--60, .card__girl--59, .card__girl--58, .card__girl--57, .card__girl--56, .card__girl--55, .card__girl--54, .card__girl--53, .card__girl--52, .card__girl--51, .card__girl--50, .card__girl--49, .card__girl--48, .card__girl--47, .card__girl--46, .card__girl--45, .card__girl--44, .card__girl--43, .card__girl--42, .card__girl--41, .card__girl--40, .card__girl--39, .card__girl--38, .card__girl--37, .card__girl--36, .card__girl--35, .card__girl--34, .card__girl--33, .card__girl--32, .card__girl--31, .card__girl--30, .card__girl--29, .card__girl--120, .card__girl--115, .card__girl--109, .card__girl--104, .card__girl--97, .card__girl--28, .card__girl--27, .card__girl--26, .card__girl--25, .card__girl--24, .card__girl--23, .card__girl--22, .card__girl--21, .card__girl--20, .card__girl--19, .card__girl--18, .card__girl--17, .card__girl--16, .card__girl--15, .card__girl--14, .card__girl--13, .card__girl--12, .card__girl--11, .card__girl--10, .card__girl--9, .card__girl--135, .card__girl--113, .card__girl--8, .card__girl--7, .card__girl--6, .card__girl--5, .card__girl--4, .card__girl--3, .card__girl--119, .card__girl--116, .card__girl--110, .card__girl--105, .card__girl--98, .card__girl--2, .card__girl--133, .card__girl--130, .card__girl--129, .card__girl--126, .card__girl--125, .card__girl--122, .card__girl--121, .card__girl--118, .card__girl--114, .card__girl--112, .card__girl--108, .card__girl--107, .card__girl--103, .card__girl--100, .card__girl--96, .card__girl--94, .card__girl--1, .card__girl--117, .card__girl--111, .card__girl--106, .card__girl--99, .card__girl--righteyebottom, .card__girl--righteyetop, .card__girl--lefteyebottom, .card__girl--lefteyetop, .card__girl {
+  position: absolute;
+}
+
+.card {
+  background-color: #E96576;
+  height: 576px;
+  position: relative;
+  width: 800px;
+}
+.card__girl {
+  background-color: #FCE0CE;
+  height: 276px;
+  width: 276px;
+  margin: 48px;
+}
+.card__girl--lefteyetop, .card__girl--righteyetop {
+  animation: eye;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  background-color: #452209;
+  height: 24px;
+  left: 72px;
+  top: 132px;
+  width: 24px;
+}
+.card__girl--lefteyebottom, .card__girl--righteyebottom {
+  background-color: #452209;
+  height: 12px;
+  left: 72px;
+  top: 144px;
+  width: 24px;
+}
+.card__girl--righteyetop {
+  left: 180px;
+}
+.card__girl--righteyebottom {
+  left: 180px;
+}
+.card__girl--1, .card__girl--117, .card__girl--111, .card__girl--106, .card__girl--99, .card__girl--88, .card__girl--80, .card__girl--73, .card__girl--65, .card__girl--59, .card__girl--54, .card__girl--46, .card__girl--38, .card__girl--31, .card__girl--24, .card__girl--18, .card__girl--12, .card__girl--7, .card__girl--4 {
+  background-color: #E96576;
+  height: 12px;
+  width: 96px;
+}
+.card__girl--2, .card__girl--133, .card__girl--130, .card__girl--129, .card__girl--126, .card__girl--125, .card__girl--122, .card__girl--121, .card__girl--118, .card__girl--114, .card__girl--112, .card__girl--108, .card__girl--107, .card__girl--103, .card__girl--100, .card__girl--96, .card__girl--94, .card__girl--89, .card__girl--85, .card__girl--83, .card__girl--81, .card__girl--77, .card__girl--74, .card__girl--70, .card__girl--66, .card__girl--62, .card__girl--60, .card__girl--56, .card__girl--55, .card__girl--51, .card__girl--47, .card__girl--43, .card__girl--39, .card__girl--35, .card__girl--28, .card__girl--8, .card__girl--32, .card__girl--25, .card__girl--19, .card__girl--22, .card__girl--13, .card__girl--16, .card__girl--10, .card__girl--5 {
+  background-color: #000;
+  height: 12px;
+  left: 96px;
+  width: 96px;
+}
+.card__girl--3, .card__girl--119, .card__girl--116, .card__girl--110, .card__girl--105, .card__girl--98, .card__girl--87, .card__girl--79, .card__girl--72, .card__girl--64, .card__girl--58, .card__girl--53, .card__girl--45, .card__girl--37, .card__girl--30, .card__girl--23, .card__girl--17, .card__girl--11, .card__girl--6 {
+  background-color: #E96576;
+  height: 12px;
+  left: 192px;
+  width: 84px;
+}
+.card__girl--4 {
+  top: 12px;
+  width: 84px;
+}
+.card__girl--5 {
+  left: 84px;
+  top: 12px;
+  width: 120px;
+}
+.card__girl--6 {
+  left: 204px;
+  top: 12px;
+  width: 72px;
+}
+.card__girl--7 {
+  top: 24px;
+  width: 72px;
+}
+.card__girl--8, .card__girl--32, .card__girl--25, .card__girl--19, .card__girl--22, .card__girl--13, .card__girl--16, .card__girl--10 {
+  top: 24px;
+  left: 72px;
+  width: 72px;
+}
+.card__girl--9, .card__girl--135, .card__girl--113, .card__girl--101, .card__girl--93, .card__girl--75, .card__girl--90, .card__girl--69, .card__girl--67, .card__girl--42, .card__girl--14, .card__girl--34, .card__girl--33, .card__girl--27, .card__girl--26, .card__girl--20, .card__girl--21, .card__girl--15 {
+  background-color: #F3C1A9;
+  height: 12px;
+  top: 24px;
+  left: 144px;
+  width: 24px;
+}
+.card__girl--10 {
+  left: 168px;
+  width: 48px;
+}
+.card__girl--11 {
+  left: 216px;
+  top: 24px;
+  width: 60px;
+}
+.card__girl--12 {
+  top: 36px;
+  width: 60px;
+}
+.card__girl--13, .card__girl--16 {
+  top: 36px;
+  left: 60px;
+}
+.card__girl--14, .card__girl--34, .card__girl--33, .card__girl--27, .card__girl--26, .card__girl--20, .card__girl--21, .card__girl--15 {
+  top: 36px;
+  left: 132px;
+  width: 12px;
+}
+.card__girl--15 {
+  left: 168px;
+}
+.card__girl--16 {
+  left: 180px;
+  width: 48px;
+}
+.card__girl--17 {
+  left: 228px;
+  top: 36px;
+  width: 48px;
+}
+.card__girl--18 {
+  top: 48px;
+  width: 48px;
+}
+.card__girl--19, .card__girl--22 {
+  top: 48px;
+  left: 48px;
+}
+.card__girl--20, .card__girl--21 {
+  top: 48px;
+  left: 120px;
+}
+.card__girl--21 {
+  left: 180px;
+}
+.card__girl--22 {
+  left: 192px;
+  width: 48px;
+}
+.card__girl--23 {
+  left: 240px;
+  top: 48px;
+  width: 36px;
+}
+.card__girl--24 {
+  top: 60px;
+  width: 36px;
+}
+.card__girl--25 {
+  top: 60px;
+  left: 36px;
+}
+.card__girl--26 {
+  top: 60px;
+  left: 108px;
+}
+.card__girl--27 {
+  top: 60px;
+  left: 192px;
+}
+.card__girl--28 {
+  left: 204px;
+  top: 60px;
+  width: 36px;
+}
+.card__girl--29, .card__girl--120, .card__girl--115, .card__girl--109, .card__girl--104, .card__girl--97, .card__girl--86, .card__girl--82, .card__girl--78, .card__girl--76, .card__girl--71, .card__girl--68, .card__girl--63, .card__girl--61, .card__girl--57, .card__girl--52, .card__girl--44, .card__girl--36 {
+  background-color: #3f2915;
+  top: 60px;
+  left: 240px;
+  width: 12px;
+  height: 12px;
+}
+.card__girl--30 {
+  left: 252px;
+  top: 60px;
+  width: 24px;
+}
+.card__girl--31 {
+  top: 72px;
+  width: 24px;
+}
+.card__girl--32 {
+  top: 72px;
+  left: 24px;
+}
+.card__girl--33 {
+  top: 72px;
+  left: 96px;
+}
+.card__girl--34 {
+  top: 72px;
+  left: 204px;
+}
+.card__girl--35 {
+  left: 216px;
+  top: 72px;
+  width: 24px;
+}
+.card__girl--36 {
+  left: 240px;
+  top: 72px;
+}
+.card__girl--37 {
+  top: 72px;
+  left: 252px;
+  width: 24px;
+}
+.card__girl--38 {
+  top: 84px;
+  width: 24px;
+}
+.card__girl--39 {
+  top: 84px;
+  left: 24px;
+  width: 60px;
+}
+.card__girl--40, .card__girl--50, .card__girl--49, .card__girl--48, .card__girl--41 {
+  background-color: #282828;
+  top: 84px;
+  left: 84px;
+  width: 12px;
+  height: 12px;
+}
+.card__girl--41 {
+  left: 180px;
+  width: 24px;
+}
+.card__girl--42 {
+  top: 84px;
+  left: 204px;
+  width: 12px;
+}
+.card__girl--43 {
+  left: 216px;
+  top: 84px;
+  width: 36px;
+}
+.card__girl--44 {
+  left: 252px;
+  top: 84px;
+}
+.card__girl--45 {
+  left: 264px;
+  top: 84px;
+  width: 12px;
+}
+.card__girl--46 {
+  top: 96px;
+  width: 12px;
+}
+.card__girl--47 {
+  top: 96px;
+  left: 12px;
+  width: 72px;
+}
+.card__girl--48 {
+  top: 96px;
+  left: 96px;
+  width: 12px;
+}
+.card__girl--49 {
+  top: 96px;
+  left: 168px;
+  width: 12px;
+}
+.card__girl--50 {
+  top: 96px;
+  left: 204px;
+  width: 12px;
+}
+.card__girl--51 {
+  left: 216px;
+  top: 96px;
+  width: 36px;
+}
+.card__girl--52 {
+  left: 252px;
+  top: 96px;
+}
+.card__girl--53 {
+  left: 264px;
+  top: 96px;
+  width: 12px;
+}
+.card__girl--54 {
+  top: 108px;
+  height: 24px;
+  width: 12px;
+}
+.card__girl--55 {
+  top: 108px;
+  height: 24px;
+  left: 12px;
+  width: 72px;
+}
+.card__girl--56 {
+  left: 216px;
+  height: 24px;
+  top: 108px;
+  width: 36px;
+}
+.card__girl--57 {
+  left: 252px;
+  height: 24px;
+  top: 108px;
+}
+.card__girl--58 {
+  left: 264px;
+  height: 24px;
+  top: 108px;
+  width: 12px;
+}
+.card__girl--59 {
+  top: 132px;
+  width: 12px;
+}
+.card__girl--60 {
+  top: 132px;
+  left: 12px;
+  width: 72px;
+}
+.card__girl--61 {
+  left: 216px;
+  top: 132px;
+}
+.card__girl--62 {
+  left: 228px;
+  top: 132px;
+  width: 24px;
+}
+.card__girl--63 {
+  left: 252px;
+  top: 132px;
+}
+.card__girl--64 {
+  left: 264px;
+  top: 132px;
+  width: 12px;
+}
+.card__girl--65 {
+  top: 144px;
+  width: 12px;
+}
+.card__girl--66 {
+  top: 144px;
+  left: 12px;
+  width: 60px;
+}
+.card__girl--67 {
+  top: 144px;
+  left: 132px;
+  width: 12px;
+}
+.card__girl--68 {
+  left: 216px;
+  top: 144px;
+}
+.card__girl--69 {
+  top: 144px;
+  left: 228px;
+  width: 12px;
+}
+.card__girl--70 {
+  left: 240px;
+  top: 144px;
+  width: 12px;
+}
+.card__girl--71 {
+  left: 252px;
+  top: 144px;
+}
+.card__girl--72 {
+  left: 264px;
+  top: 144px;
+  width: 12px;
+}
+.card__girl--73 {
+  top: 156px;
+  width: 12px;
+}
+.card__girl--74 {
+  top: 156px;
+  left: 12px;
+  width: 48px;
+}
+.card__girl--90 {
+  top: 156px;
+  left: 60px;
+  width: 12px;
+}
+.card__girl--75 {
+  top: 156px;
+  left: 132px;
+  width: 12px;
+}
+.card__girl--76 {
+  left: 216px;
+  top: 156px;
+}
+.card__girl--77 {
+  left: 240px;
+  top: 156px;
+  width: 12px;
+}
+.card__girl--78 {
+  left: 252px;
+  top: 156px;
+}
+.card__girl--79 {
+  left: 264px;
+  top: 156px;
+  width: 12px;
+}
+.card__girl--80 {
+  top: 168px;
+  width: 12px;
+}
+.card__girl--81 {
+  top: 168px;
+  width: 48px;
+  left: 12px;
+}
+.card__girl--93 {
+  top: 168px;
+  left: 60px;
+  width: 12px;
+}
+.card__girl--82 {
+  left: 216px;
+  top: 168px;
+  width: 12px;
+}
+.card__girl--83 {
+  left: 228px;
+  top: 168px;
+  width: 3px;
+}
+.card__girl--84, .card__girl--95 {
+  background-color: #FFD700;
+  top: 168px;
+  left: 231px;
+  width: 6px;
+  height: 12px;
+}
+.card__girl--85 {
+  left: 237px;
+  top: 168px;
+  width: 15px;
+}
+.card__girl--86 {
+  left: 252px;
+  top: 168px;
+  width: 12px;
+}
+.card__girl--87 {
+  left: 264px;
+  top: 168px;
+  width: 12px;
+}
+.card__girl--88 {
+  top: 180px;
+  width: 12px;
+}
+.card__girl--89 {
+  top: 180px;
+  width: 48px;
+  left: 12px;
+}
+.card__girl--101 {
+  top: 180px;
+  left: 60px;
+  width: 12px;
+}
+.card__girl--92, .card__girl--91 {
+  background-color: #9f1f19;
+  top: 180px;
+  left: 120px;
+  width: 24px;
+  height: 12px;
+}
+.card__girl--91 {
+  animation: mouth;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  top: 180px;
+  left: 108px;
+  width: 60px;
+}
+.card__girl--94 {
+  left: 216px;
+  top: 180px;
+  width: 15px;
+}
+.card__girl--95 {
+  top: 180px;
+}
+.card__girl--96 {
+  left: 237px;
+  top: 180px;
+  width: 15px;
+}
+.card__girl--97 {
+  left: 252px;
+  top: 180px;
+  width: 12px;
+}
+.card__girl--98 {
+  left: 264px;
+  top: 180px;
+  width: 12px;
+}
+.card__girl--99 {
+  top: 192px;
+  width: 12px;
+}
+.card__girl--100 {
+  top: 192px;
+  width: 60px;
+  left: 12px;
+}
+.card__girl--103 {
+  left: 204px;
+  top: 192px;
+  width: 48px;
+}
+.card__girl--104 {
+  left: 252px;
+  top: 192px;
+  width: 12px;
+}
+.card__girl--105 {
+  left: 264px;
+  top: 192px;
+  width: 12px;
+}
+.card__girl--106 {
+  top: 204px;
+  width: 12px;
+}
+.card__girl--107 {
+  top: 204px;
+  width: 72px;
+  left: 12px;
+}
+.card__girl--108 {
+  left: 192px;
+  top: 204px;
+  width: 60px;
+}
+.card__girl--109 {
+  left: 252px;
+  top: 204px;
+  width: 12px;
+}
+.card__girl--110 {
+  left: 264px;
+  top: 204px;
+  width: 12px;
+}
+.card__girl--111 {
+  top: 216px;
+  width: 12px;
+  height: 24px;
+}
+.card__girl--112 {
+  top: 216px;
+  width: 108px;
+  left: 12px;
+  height: 24px;
+}
+.card__girl--113 {
+  top: 216px;
+  left: 120px;
+  width: 36px;
+}
+.card__girl--114 {
+  left: 156px;
+  top: 216px;
+  width: 108px;
+  height: 24px;
+}
+.card__girl--115 {
+  left: 252px;
+  top: 216px;
+  width: 12px;
+  height: 24px;
+}
+.card__girl--116 {
+  left: 264px;
+  top: 216px;
+  width: 12px;
+  height: 24px;
+}
+.card__girl--117 {
+  top: 228px;
+  width: 12px;
+  height: 72px;
+}
+.card__girl--118 {
+  top: 228px;
+  width: 36px;
+  left: 12px;
+  height: 72px;
+  z-index: 1;
+}
+.card__girl--119 {
+  left: 264px;
+  top: 228px;
+  width: 12px;
+  height: 72px;
+}
+.card__girl--120 {
+  left: 252px;
+  top: 228px;
+  width: 12px;
+  height: 60px;
+}
+.card__girl--121 {
+  left: 240px;
+  top: 228px;
+  width: 12px;
+  height: 60px;
+  z-index: 1;
+}
+.card__girl--122 {
+  top: 240px;
+  width: 24px;
+  left: 36px;
+}
+.card__girl--123, .card__girl--137, .card__girl--136, .card__girl--134, .card__girl--132, .card__girl--131, .card__girl--128, .card__girl--127, .card__girl--124 {
+  background-color: #FFF;
+  top: 240px;
+  left: 60px;
+  width: 36px;
+  height: 12px;
+}
+.card__girl--124 {
+  left: 180px;
+}
+.card__girl--125 {
+  top: 240px;
+  width: 24px;
+  left: 216px;
+}
+.card__girl--126 {
+  top: 252px;
+  width: 12px;
+  left: 36px;
+}
+.card__girl--127 {
+  top: 252px;
+  left: 48px;
+  width: 60px;
+}
+.card__girl--128 {
+  top: 252px;
+  left: 168px;
+  width: 60px;
+}
+.card__girl--129 {
+  top: 252px;
+  width: 12px;
+  left: 228px;
+}
+.card__girl--130 {
+  top: 264px;
+  width: 12px;
+  left: 36px;
+}
+.card__girl--131 {
+  top: 264px;
+  left: 48px;
+  width: 72px;
+}
+.card__girl--132 {
+  top: 264px;
+  left: 156px;
+  width: 72px;
+}
+.card__girl--133 {
+  top: 264px;
+  width: 12px;
+  left: 228px;
+}
+.card__girl--134 {
+  top: 276px;
+  left: 48px;
+  width: 84px;
+}
+.card__girl--135 {
+  top: 276px;
+  left: 132px;
+  width: 12px;
+}
+.card__girl--136 {
+  top: 276px;
+  left: 144px;
+  width: 84px;
+}
+.card__girl--137 {
+  top: 288px;
+  left: 48px;
+  width: 180px;
+  height: 84px;
+}
+.card__girl--138 {
+  background-color: #484848;
+  top: 372px;
+  left: 48px;
+  width: 180px;
+  height: 12px;
+}
+.card__girl--139 {
+  background-color: #DAA520;
+  top: 372px;
+  left: 120px;
+  width: 36px;
+  height: 12px;
+}
+.card__girl--140, .card__girl--144, .card__girl--143, .card__girl--142 {
+  background-color: #1560bd;
+  top: 384px;
+  left: 48px;
+  width: 84px;
+  height: 36px;
+}
+.card__girl--141 {
+  background-color: #0d3d78;
+  top: 384px;
+  left: 132px;
+  width: 12px;
+  height: 36px;
+}
+.card__girl--142 {
+  left: 144px;
+}
+.card__girl--143 {
+  top: 420px;
+  left: 60px;
+  width: 72px;
+}
+.card__girl--144 {
+  top: 420px;
+  left: 144px;
+  width: 72px;
+}
+.card__girl--145, .card__girl--150, .card__girl--149, .card__girl--148, .card__girl--147, .card__girl--146 {
+  background-color: #00112d;
+  top: 456px;
+  left: 60px;
+  width: 72px;
+  height: 12px;
+}
+.card__girl--146 {
+  left: 144px;
+}
+.card__girl--147 {
+  top: 468px;
+  width: 48px;
+}
+.card__girl--148 {
+  top: 468px;
+  width: 12px;
+  left: 120px;
+}
+.card__girl--149 {
+  top: 468px;
+  width: 12px;
+  left: 144px;
+}
+.card__girl--150 {
+  top: 468px;
+  width: 48px;
+  left: 168px;
+}
+.card__world {
+  animation: world;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  height: 108px;
+  position: relative;
+  width: 108px;
+  left: 132px;
+  top: 288px;
+}
+.card__world--1, .card__world--16, .card__world--14, .card__world--12, .card__world--10, .card__world--8, .card__world--6, .card__world--4, .card__world--2 {
+  background-color: #0077be;
+  height: 12px;
+  left: 48px;
+  width: 12px;
+}
+.card__world--2 {
+  left: 24px;
+  width: 60px;
+  top: 12px;
+}
+.card__world--3, .card__world--15, .card__world--13, .card__world--11, .card__world--9, .card__world--7, .card__world--5 {
+  background-color: #458B00;
+  height: 12px;
+  left: 48px;
+  width: 12px;
+  top: 12px;
+}
+.card__world--4 {
+  left: 12px;
+  width: 84px;
+  top: 24px;
+}
+.card__world--5 {
+  left: 24px;
+  width: 48px;
+  top: 24px;
+}
+.card__world--6 {
+  left: 12px;
+  width: 84px;
+  top: 36px;
+}
+.card__world--7 {
+  left: 36px;
+  width: 24px;
+  top: 36px;
+}
+.card__world--8 {
+  left: 0;
+  width: 108px;
+  top: 48px;
+}
+.card__world--9 {
+  top: 48px;
+}
+.card__world--10 {
+  left: 12px;
+  width: 84px;
+  top: 60px;
+}
+.card__world--11 {
+  top: 60px;
+  width: 24px;
+  left: 60px;
+}
+.card__world--12 {
+  left: 12px;
+  width: 84px;
+  top: 72px;
+}
+.card__world--13 {
+  top: 72px;
+  width: 24px;
+  left: 48px;
+}
+.card__world--14 {
+  left: 24px;
+  width: 60px;
+  top: 84px;
+}
+.card__world--15 {
+  top: 84px;
+  width: 12px;
+  left: 60px;
+}
+.card__world--16 {
+  width: 12px;
+  top: 96px;
+}
+.card__world--17, .card__world--26, .card__world--25, .card__world--20, .card__world--19, .card__world--18 {
+  background-color: #FCE0CE;
+  height: 12px;
+  width: 12px;
+  top: 72px;
+}
+.card__world--18 {
+  left: 96px;
+}
+.card__world--19 {
+  width: 24px;
+  height: 24px;
+  top: 84px;
+}
+.card__world--20 {
+  left: 84px;
+  width: 24px;
+  height: 24px;
+  top: 84px;
+}
+.card__world--21, .card__world--28, .card__world--27, .card__world--24, .card__world--23, .card__world--22 {
+  background-color: #F3C1A9;
+  height: 3px;
+  width: 12px;
+  top: 90px;
+  left: 12px;
+}
+.card__world--22 {
+  top: 99px;
+}
+.card__world--23 {
+  top: 90px;
+  left: 84px;
+}
+.card__world--24 {
+  top: 99px;
+  left: 84px;
+}
+.card__world--25 {
+  width: 48px;
+  height: 24px;
+  top: 84px;
+  left: -48px;
+  z-index: 1;
+}
+.card__world--26 {
+  width: 48px;
+  height: 24px;
+  top: 84px;
+  left: 108px;
+  z-index: 1;
+}
+.card__world--27 {
+  top: 84px;
+  width: 3px;
+  height: 24px;
+  left: -3px;
+}
+.card__world--28 {
+  top: 84px;
+  width: 3px;
+  height: 24px;
+  left: 108px;
+}
+.card__world--29 {
+  background-color: #FFF;
+  height: 108px;
+  width: 36px;
+  left: -60px;
+}
+.card__world--30 {
+  background-color: #EDEAEA;
+  height: 84px;
+  width: 3px;
+  left: -27px;
+}
+.card__world--31 {
+  background-color: #FFF;
+  height: 108px;
+  width: 36px;
+  left: 132px;
+}
+.card__world--32 {
+  background-color: #EDEAEA;
+  height: 84px;
+  width: 3px;
+  left: 132px;
+}
+.card__floor {
+  background-color: #C76F78;
+  height: 48px;
+  width: 800px;
+  top: 528px;
+}
+.card__desk {
+  height: 168px;
+  width: 360px;
+  top: 396px;
+  left: 360px;
+}
+.card__desk--1, .card__desk--4, .card__desk--3 {
+  background-color: #763C28;
+  height: 24px;
+  width: 360px;
+}
+.card__desk--2 {
+  background-color: #4b3621;
+  height: 12px;
+  width: 336px;
+  left: 12px;
+  top: 24px;
+}
+.card__desk--3 {
+  width: 24px;
+  top: 36px;
+  left: 12px;
+  height: 96px;
+}
+.card__desk--4 {
+  width: 24px;
+  top: 36px;
+  left: 324px;
+  height: 96px;
+}
+.card__wonderWoman {
+  height: 204px;
+  width: 168px;
+  top: 192px;
+  left: 456px;
+}
+.card__wonderWoman--1, .card__wonderWoman--45, .card__wonderWoman--44, .card__wonderWoman--33, .card__wonderWoman--28, .card__wonderWoman--24, .card__wonderWoman--18, .card__wonderWoman--11, .card__wonderWoman--9, .card__wonderWoman--6, .card__wonderWoman--4, .card__wonderWoman--2 {
+  background-color: #000;
+  height: 12px;
+  left: 60px;
+  width: 48px;
+}
+.card__wonderWoman--2 {
+  top: 12px;
+  left: 48px;
+  width: 72px;
+}
+.card__wonderWoman--3, .card__wonderWoman--10, .card__wonderWoman--7, .card__wonderWoman--5 {
+  background-color: #ffbf00;
+  top: 12px;
+  left: 72px;
+  width: 24px;
+  height: 12px;
+}
+.card__wonderWoman--4 {
+  top: 24px;
+  left: 36px;
+  width: 96px;
+}
+.card__wonderWoman--5 {
+  top: 24px;
+  left: 60px;
+  width: 48px;
+}
+.card__wonderWoman--6 {
+  top: 36px;
+  left: 24px;
+  width: 120px;
+}
+.card__wonderWoman--7 {
+  top: 36px;
+  left: 48px;
+  width: 72px;
+}
+.card__wonderWoman--8, .card__wonderWoman--42, .card__wonderWoman--40, .card__wonderWoman--26, .card__wonderWoman--16, .card__wonderWoman--12 {
+  background-color: #9b111e;
+  top: 36px;
+  left: 72px;
+  width: 24px;
+  height: 12px;
+}
+.card__wonderWoman--9 {
+  top: 48px;
+  left: 24px;
+  width: 120px;
+}
+.card__wonderWoman--10 {
+  top: 48px;
+  left: 48px;
+  width: 72px;
+}
+.card__wonderWoman--11 {
+  top: 60px;
+  left: 24px;
+  width: 120px;
+  height: 36px;
+}
+.card__wonderWoman--12 {
+  top: 60px;
+  left: 36px;
+  width: 12px;
+}
+.card__wonderWoman--13, .card__wonderWoman--39, .card__wonderWoman--38, .card__wonderWoman--25, .card__wonderWoman--21, .card__wonderWoman--20, .card__wonderWoman--19, .card__wonderWoman--17, .card__wonderWoman--15, .card__wonderWoman--14 {
+  background-color: #FCE0CE;
+  top: 60px;
+  left: 48px;
+  width: 12px;
+  height: 24px;
+}
+.card__wonderWoman--14 {
+  top: 60px;
+  left: 72px;
+  width: 24px;
+}
+.card__wonderWoman--15 {
+  top: 60px;
+  left: 108px;
+  width: 12px;
+}
+.card__wonderWoman--16 {
+  top: 60px;
+  left: 120px;
+  width: 12px;
+}
+.card__wonderWoman--17 {
+  top: 84px;
+  left: 60px;
+  height: 12px;
+  width: 48px;
+}
+.card__wonderWoman--18 {
+  top: 96px;
+  left: 12px;
+  width: 144px;
+  height: 24px;
+}
+.card__wonderWoman--19 {
+  top: 96px;
+  left: 48px;
+  height: 12px;
+}
+.card__wonderWoman--20 {
+  top: 96px;
+  left: 108px;
+  height: 12px;
+}
+.card__wonderWoman--21 {
+  top: 108px;
+  left: 36px;
+  height: 12px;
+  width: 96px;
+}
+.card__wonderWoman--22, .card__wonderWoman--27, .card__wonderWoman--23 {
+  background-color: #FFD700;
+  top: 108px;
+  left: 48px;
+  width: 24px;
+  height: 12px;
+}
+.card__wonderWoman--23 {
+  left: 96px;
+}
+.card__wonderWoman--24 {
+  top: 120px;
+  width: 100%;
+  left: 0;
+}
+.card__wonderWoman--25 {
+  top: 120px;
+  left: 12px;
+  height: 12px;
+  width: 144px;
+}
+.card__wonderWoman--26 {
+  top: 120px;
+  left: 48px;
+  width: 72px;
+}
+.card__wonderWoman--27 {
+  top: 120px;
+  left: 72px;
+  width: 24px;
+}
+.card__wonderWoman--28 {
+  top: 132px;
+  width: 144px;
+  left: 12px;
+}
+.card__wonderWoman--29, .card__wonderWoman--43, .card__wonderWoman--41, .card__wonderWoman--34 {
+  background-color: #FFF;
+  top: 132px;
+  left: 48px;
+  width: 60px;
+  height: 12px;
+}
+.card__wonderWoman--30, .card__wonderWoman--37, .card__wonderWoman--36, .card__wonderWoman--35, .card__wonderWoman--32, .card__wonderWoman--31 {
+  background-color: #006cc3;
+  top: 132px;
+  left: 60px;
+  width: 12px;
+  height: 12px;
+}
+.card__wonderWoman--31 {
+  left: 84px;
+}
+.card__wonderWoman--32 {
+  left: 108px;
+}
+.card__wonderWoman--33 {
+  top: 144px;
+  width: 96px;
+  left: 36px;
+  height: 48px;
+}
+.card__wonderWoman--34 {
+  left: 60px;
+  top: 144px;
+}
+.card__wonderWoman--35 {
+  top: 144px;
+  left: 48px;
+}
+.card__wonderWoman--36 {
+  top: 144px;
+  left: 72px;
+}
+.card__wonderWoman--37 {
+  top: 144px;
+  left: 96px;
+}
+.card__wonderWoman--38 {
+  top: 156px;
+  left: 48px;
+  width: 24px;
+  height: 12px;
+}
+.card__wonderWoman--39 {
+  top: 156px;
+  left: 96px;
+  width: 24px;
+  height: 12px;
+}
+.card__wonderWoman--40 {
+  top: 168px;
+  left: 48px;
+  width: 12px;
+  height: 24px;
+}
+.card__wonderWoman--42 {
+  top: 168px;
+  left: 96px;
+  width: 12px;
+  height: 24px;
+}
+.card__wonderWoman--41 {
+  top: 168px;
+  left: 60px;
+  width: 12px;
+  height: 24px;
+}
+.card__wonderWoman--43 {
+  top: 168px;
+  left: 108px;
+  width: 12px;
+  height: 24px;
+}
+.card__wonderWoman--44 {
+  top: 192px;
+  width: 24px;
+  left: 48px;
+}
+.card__wonderWoman--45 {
+  top: 192px;
+  width: 24px;
+  left: 96px;
+}
+.card__message {
+  animation: message;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  background-color: #FFF;
+  top: 84px;
+  height: 84px;
+  left: 336px;
+  width: 420px;
+}
+.card__message--1, .card__message--7, .card__message--6, .card__message--5, .card__message--4, .card__message--3, .card__message--2 {
+  background-color: #FFF;
+  top: -24px;
+  height: 12px;
+  width: 372px;
+  left: 24px;
+}
+.card__message--2 {
+  top: -12px;
+  width: 396px;
+  left: 12px;
+}
+.card__message--3 {
+  top: 84px;
+  width: 396px;
+  left: 12px;
+}
+.card__message--4 {
+  top: 96px;
+}
+.card__message--5 {
+  top: 108px;
+  width: 48px;
+  left: 312px;
+}
+.card__message--6 {
+  top: 120px;
+  width: 36px;
+  left: 312px;
+}
+.card__message--7 {
+  top: 132px;
+  width: 24px;
+  left: 300px;
+}
+.card__message--8, .card__message--35, .card__message--34, .card__message--33, .card__message--32, .card__message--31, .card__message--30, .card__message--29, .card__message--28, .card__message--27, .card__message--26, .card__message--25, .card__message--23, .card__message--22, .card__message--21, .card__message--24, .card__message--20, .card__message--19, .card__message--18, .card__message--17, .card__message--16, .card__message--15, .card__message--14, .card__message--13, .card__message--12, .card__message--11, .card__message--10, .card__message--9 {
+  background-color: #2C6691;
+  top: 12px;
+  height: 60px;
+  width: 12px;
+  left: 12px;
+}
+.card__message--9 {
+  height: 12px;
+  left: 24px;
+}
+.card__message--10 {
+  height: 12px;
+  left: 24px;
+  top: 36px;
+}
+.card__message--11 {
+  left: 48px;
+}
+.card__message--12 {
+  height: 12px;
+  left: 60px;
+}
+.card__message--13 {
+  height: 12px;
+  left: 60px;
+  top: 36px;
+}
+.card__message--14 {
+  height: 12px;
+  left: 60px;
+  top: 60px;
+}
+.card__message--15 {
+  left: 84px;
+}
+.card__message--16 {
+  height: 12px;
+  left: 96px;
+  top: 60px;
+}
+.card__message--17 {
+  height: 12px;
+  width: 36px;
+  left: 120px;
+  top: 12px;
+}
+.card__message--18 {
+  left: 132px;
+}
+.card__message--19 {
+  height: 12px;
+  left: 120px;
+  width: 36px;
+  top: 60px;
+}
+.card__message--20 {
+  height: 12px;
+  left: 168px;
+  width: 36px;
+  top: 12px;
+}
+.card__message--24 {
+  height: 12px;
+  left: 168px;
+  width: 36px;
+  top: 60px;
+}
+.card__message--21 {
+  height: 12px;
+  left: 192px;
+  top: 24px;
+}
+.card__message--22 {
+  height: 12px;
+  left: 180px;
+  top: 36px;
+}
+.card__message--23 {
+  height: 12px;
+  left: 168px;
+  top: 48px;
+}
+.card__message--25 {
+  left: 252px;
+}
+.card__message--26 {
+  height: 12px;
+  width: 24px;
+  left: 264px;
+  top: 12px;
+}
+.card__message--27 {
+  height: 12px;
+  width: 24px;
+  left: 264px;
+  top: 60px;
+}
+.card__message--28 {
+  left: 288px;
+  top: 24px;
+  height: 36px;
+}
+.card__message--29 {
+  height: 12px;
+  width: 36px;
+  left: 312px;
+  top: 12px;
+}
+.card__message--30 {
+  left: 324px;
+}
+.card__message--31 {
+  height: 12px;
+  left: 312px;
+  width: 36px;
+  top: 60px;
+}
+.card__message--32 {
+  left: 360px;
+  top: 24px;
+  height: 48px;
+}
+.card__message--33 {
+  left: 396px;
+  top: 24px;
+  height: 48px;
+}
+.card__message--34 {
+  height: 12px;
+  width: 24px;
+  left: 372px;
+  top: 12px;
+}
+.card__message--35 {
+  height: 12px;
+  width: 24px;
+  left: 372px;
+  top: 36px;
+}
+.card__by {
+  bottom: -28px;
+  color: white;
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
+  right: 30px;
+}
+
+@keyframes eye {
+  0% {
+    opacity: 1;
+  }
+  48% {
+    opacity: 1;
+  }
+  49% {
+    opacity: 0;
+  }
+  55% {
+    opacity: 1;
+  }
+  57% {
+    opacity: 0;
+  }
+  98% {
+    opacity: 0;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes mouth {
+  0% {
+    opacity: 0;
+  }
+  59% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  99% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes world {
+  0% {
+    top: 288px;
+  }
+  59% {
+    top: 288px;
+  }
+  60% {
+    top: 300px;
+  }
+  99% {
+    top: 300px;
+  }
+  100% {
+    top: 288px;
+  }
+}
+@keyframes message {
+  0% {
+    top: 84px;
+  }
+  50% {
+    top: 48px;
+  }
+  100% {
+    top: 84px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
